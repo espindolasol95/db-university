@@ -1,0 +1,13 @@
+1. Selezionare tutti gli studenti nati nel 1990 (160)
+
+SELECT*
+FROM `students`
+WHERE YEAR (date_of_birth) =1990;
+
+qui ho usato select copme comando standar, vuol dire 'prendi tutte le colonne'
+per poi mettere  * perche voglio tutte le informazioni degli studenti
+
+poi ho usato   WHERE per filtrare con la condizione YEAR data nascita uguale a 1990
+in modo che mi prenda solo quello
+
+ 
